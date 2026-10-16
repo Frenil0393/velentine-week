@@ -768,7 +768,7 @@
   </div>
 
   <!-- Animated background text -->
-  <div class="promise-background-text">Kresha</div>
+  <div class="promise-background-text">[Girl Name]</div>
 
   <!-- Floating particles -->
   <div class="promise-particles" id="promiseParticles"></div>
@@ -779,7 +779,7 @@
   <div class="app">
     <!-- Header -->
     <div class="promise-header">
-      <h1>Promise Day ✨ For Kresha</h1>
+      <h1>Promise Day ✨ For [Girl Name]</h1>
       <p class="promise-subtitle">My Most Sacred & Eternal Promise to the Love of My Life</p>
       <div class="promise-divider"></div>
     </div>
@@ -789,14 +789,14 @@
       <div class="promise-card">
         <!-- Promise Statement -->
         <div class="promise-statement">
-          <h2>Kresha, I Promise You...</h2>
+          <h2>[Girl Name], I Promise You...</h2>
           <p class="promise-text">
             To love you with every fiber of my being, in every season of our lives. To hold
             your hand through storms and dance with you under clear skies. You are not just my greatest
             promise, but my greatest blessing and my deepest commitment. Every heartbeat of mine belongs to you.
           </p>
           <p class="promise-text" style="margin-top: 20px; font-style: italic;">
-            Kresha, you make my world softer, brighter, and infinitely more beautiful. With you, I've found my forever.
+            [Girl Name], you make my world softer, brighter, and infinitely more beautiful. With you, I've found my forever.
           </p>
         </div>
 
@@ -805,7 +805,7 @@
           <div class="promise-item">
             <div class="promise-icon">❤️</div>
             <div class="promise-item-content">
-              <h3>To Love You Unconditionally, Kresha</h3>
+              <h3>To Love You Unconditionally, [Girl Name]</h3>
               <p>
                 With a love that grows stronger every single day, forever and always. 
                 You are the reason my heart beats faster, and I will cherish you in every moment.
@@ -871,9 +871,9 @@
 
         <!-- Closing Message -->
         <div class="promise-closing">
-          <p>My Dearest Kresha,</p>
+          <p>My Dearest [Girl Name],</p>
           <p>These promises are not just words, but the deepest commitments of my heart.</p>
-          <p class="promise-signature">Forever Yours,<br>Parth 💕</p>
+          <p class="promise-signature">Forever Yours,<br>Frenil 💕</p>
           <p style="font-size: 14px; color: #c7c2bd; margin-top: 20px;">
             Every promise here is eternal, unconditional, and will last until the end of time.
           </p>
@@ -889,13 +889,13 @@
         </button>
       </div>
       <p id="instructionText" style="margin-top: 20px; color: #c7c2bd; font-size: 14px; position: relative; z-index: 2;">
-        Click to accept these promises and send a message to Parth
+        Click to accept these promises and send a message to Frenil
       </p>
     </div>
 
     <!-- Footer -->
     <footer class="promise-footer">
-      <span>© 2026 Made by Parth Vaghela | Framework by Sheenath Developers</span>
+      <span>© 2026 Made by Frenil Vaghasia | Framework by Sheenath Developers</span>
     </footer>
   </div>
 
@@ -966,11 +966,11 @@
     });
 
     // Configuration
-    const PARTH_WHATSAPP_NUMBER = "+916352335304"; // Parth's number to receive acceptance
-    const GIRLFRIEND_NAME = "Kresha";
-    const BOYFRIEND_NAME = "Parth";
+    const FRENIL_WHATSAPP_NUMBER = "+916352335304"; // Number to receive acceptance
+    const GIRLFRIEND_NAME = "[Girl Name]";
+    const BOYFRIEND_NAME = "Frenil";
 
-    // Accept promise function (for Kresha)
+    // Accept promise function (for [Girl Name])
     function acceptPromise() {
       const btn = document.getElementById("acceptPromiseBtn");
       const instructionText = document.getElementById("instructionText");
@@ -985,10 +985,10 @@
         }, i * 80);
       }
       
-      // Prepare acceptance message from Kresha to Parth
+      // Prepare acceptance message from [Girl Name] to Frenil
       const message = `${BOYFRIEND_NAME}! 💕\n\nI have accepted ALL your beautiful promises with all my heart! ❤️\n\nI promise to:\n✨ Love you unconditionally\n🤝 Stand by your side always\n🌹 Make every moment magical\n💫 Never stop caring\n🎯 Build our dreams together\n✨ Love you more each day\n\nThese promises are eternal. I am forever yours!\n\nAll my love,\n${GIRLFRIEND_NAME} 💕`;
       const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://api.whatsapp.com/send?phone=${PARTH_WHATSAPP_NUMBER.replace('+', '')}&text=${encodedMessage}`;
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=${FRENIL_WHATSAPP_NUMBER.replace('+', '')}&text=${encodedMessage}`;
       
       // Change button state
       btn.textContent = "✨ Promise Accepted & Sent! ✨";
@@ -996,10 +996,10 @@
       btn.style.pointerEvents = "none";
       
       // Update instruction
-      instructionText.textContent = "💕 Your acceptance message is being sent to Parth via WhatsApp!";
+      instructionText.textContent = "💕 Your acceptance message is being sent to Frenil via WhatsApp!";
       instructionText.style.color = "#ffc87c";
       
-      // Open WhatsApp to send message to Parth
+      // Open WhatsApp to send message to Frenil
       setTimeout(() => {
         window.open(whatsappUrl, "_blank");
       }, 800);
